@@ -1,0 +1,5 @@
+    SYNC + DATA + SUM 
+
+    SYNC : 0x7F 0x7F 0xFE 
+    DATA : 共46字节,每两个字节表示一个有符号16位变量,目前用到了前17个变量,其它字节补0 
+    SUM  : 共1字节,SYNC和DATA累加取最低8位 
